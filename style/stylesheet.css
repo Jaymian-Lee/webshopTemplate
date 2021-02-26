@@ -1,0 +1,73 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.title_text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 500%;
+}
+
+.title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+    }
+  
+  a { 
+    color: black;
+    padding: 14px;
+    text-decoration: none;
+    transition:.5s;
+    font-size: 20px;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .login-buttons{
+      background-color: rgb(0, 0, 0, 0);
+      color: black; 
+      border: 2px solid black;
+      transition: 0.3s;
+      width: 10%;
+  }
+
+  .login-buttons:hover{
+    background-color: black;
+    color: white; 
+    transition: 0.3s;
+}
+
+.column {
+    float: left;
+    width: 48.6%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
